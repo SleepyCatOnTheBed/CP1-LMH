@@ -1,4 +1,4 @@
-    /*
+    // Using vector
     vector<int> s(MAX);
     int n;
     cin >> n;
@@ -12,9 +12,9 @@
             s[counter] = 1;
             fill(s.begin()+(counter+1),s.end(),0);
         }
-    }while(counter!=-1);*/
+    }while(counter!=-1);
+    // Using array
     int s[MAX];
-    //int sizeOfArray = sizeof(s)/sizeof(int);
     memset(s,0, sizeof(s));
     int n;
     cin >> n;
