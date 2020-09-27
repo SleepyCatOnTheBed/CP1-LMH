@@ -2,7 +2,11 @@
 #include <vector>
 #include <string.h>
 #define MAX 30
-
+/*
+    Ta quan tâm tới 2 set nhỏ nhất và lớn nhất từ đó => giới hạn trên và giới hạn dưới sẽ lần lười là:
+    -Giới hạn trên: n-k+i+1
+    -Giới hạn dưới: x[i+1] = x[i] +1
+*/
 using namespace std;
 
 //Cau hinh khoi tao 1.2.3.4.....k
