@@ -5,7 +5,7 @@
 
 using namespace std;
 
-//Cau hinh khoi tao 1.2.3.4.....k
+//Cau hinh khoi tao 1.2.3.4.....n
 void PermutationGenerate(int s[],int n)
 {
     for(int i=1; i<=n; i++)
@@ -22,6 +22,7 @@ void Print(int s[],int n)
     }
     cout << endl;
 }
+
 void SortInRange(int s[],int fIndex, int n)
 {
     for(int i=fIndex;i<n;i++)
